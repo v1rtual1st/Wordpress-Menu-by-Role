@@ -1,4 +1,5 @@
 
+//check current admin menu items
 add_action( 'admin_init', 'debug_menu_items' );
 function debug_menu_items() {
     echo '<pre>';
